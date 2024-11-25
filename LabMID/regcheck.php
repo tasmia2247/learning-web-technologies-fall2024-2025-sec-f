@@ -18,9 +18,11 @@
             $_SESSION['password'] = $password;
             $_SESSION['address'] = $address;
             $_SESSION['gender'] = $gender;
-         header('location: Login.html');
+         header('location: Login');
         }
+    }else{
     
+        header('location: Login.html');
     }
 
-    ?>
+?>
